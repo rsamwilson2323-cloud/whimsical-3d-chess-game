@@ -83,28 +83,15 @@ Choose your preferred playing strength with adjustable ELO levels.
 ## 📂 Project Structure
 
 ```text
-whimsical-3d-chess/
-│
-├── public/
-│   └── models/
-│
-├── src/
-│   ├── components/
-│   │   ├── Board3D.jsx
-│   │   ├── DifficultyControl.jsx
-│   │   └── GameHUD.jsx
-│   │
-│   ├── game/
-│   │   ├── aiEngine.js
-│   │   └── chessRules.js
-│   │
-│   ├── App.jsx
-│   └── main.jsx
-│
+whimsical-3d-chess-game/
+├── .gitignore
+├── LICENSE
+├── README.md
 ├── index.html
+├── package-lock.json
 ├── package.json
-├── vite.config.js
-└── README.md
+├── run.bat
+└── scene.js
 ```
 
 ---
